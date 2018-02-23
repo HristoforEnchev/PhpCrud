@@ -1,7 +1,7 @@
  
    
 <?php
-                            // server, def. root, def.pass, db
+                            
 $connection = mysqli_connect('localhost', 'root', '', 'loginapp');
 
 $query = "SELECT * FROM users";
